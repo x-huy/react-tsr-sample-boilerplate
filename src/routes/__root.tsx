@@ -12,6 +12,10 @@ export function Root() {
         <Link to="/" className="text-white [&.active]:font-bold">
           Home
         </Link>
+        |
+        <Link to="/products" className="text-white [&.active]:font-bold">
+          Products
+        </Link>
       </div>
       <Outlet />
       <TanStackRouterDevtools />
